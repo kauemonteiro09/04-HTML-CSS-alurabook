@@ -1,0 +1,131 @@
+.carrossel__titulo {
+    color: var(--laranja);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--branco);
+    padding: 1.25rem 0 0.5rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial !important;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.carrossel__saiba-mais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    background-color: var(--branco);
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.saiba-mais__primeira-box,
+.saiba-mais__segunda-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.saiba-mais__primeira-box {
+    gap: 0.5rem;
+}
+
+.saiba-mais__segunda-box {
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.saiba-mais__icones-box {
+    display: flex;
+    gap: 2rem;
+    margin-top: auto;
+}
+
+.saiba-mais__preimeiro-subtitulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.saiba-mais__segundo-subtitulo {
+    color: var(--azul);
+    font-weight: 700;
+
+    font-size: 1.125rem;
+}
+
+.saiba-mais__texto {
+    font-size: 0.875rem;
+}
+
+.saiba-mais__imagem {
+    width: 100%;
+}
+
+.saiba-mais__link {
+    width: 100%;
+    text-align: center;
+    background: var(--laranja);
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    /* margin-top: auto; */
+}
+
+.saiba-mais__link:hover {
+    background: var(--laranja-hover);
+}
+
+.saiba-mais__estrelas {
+    width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .carrossel__saiba-mais {
+        margin: 3rem 10rem;
+        padding: 2rem 2rem 2rem;
+    }
+
+    .carrossel__titulo {
+        font-size: 1.165rem;
+    }
+
+    .swiper-pagination {
+        margin-bottom: 1.5rem;
+    }
+    .swiper {
+        width: 80%;
+    }
+
+    .saiba-mais__primeira-box {
+        gap: 1rem;
+    }
+
+    .saiba-mais__segunda-box {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .saiba-mais__preimeiro-subtitulo {
+        font-size: 1.25rem;
+    }
+    .saiba-mais__segundo-subtitulo {
+        font-size: 1.5rem;
+    }
+    .saiba-mais__texto {
+        font-size: 1rem;
+    }
+
+    .saiba-mais__imagem,
+    .saiba-mais__link {
+        width: 90%;
+    }
+}

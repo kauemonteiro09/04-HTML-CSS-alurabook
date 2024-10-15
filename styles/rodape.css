@@ -1,0 +1,40 @@
+.rodape {
+    padding: 1.5rem;
+    border-top: 1px solid var(--cinza);
+}
+
+.rodape__lista {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .rodape__texto {
+        font-size: 1.5rem;
+    }
+
+    .rodape__lista {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .rodape__link {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        color: var(--cinza-dark);
+        font-size: 0.875rem;
+    }
+
+    .rodape__lista-titulo {
+        font-size: 0.875rem;
+        color: var(--cinza);
+    }
+}
