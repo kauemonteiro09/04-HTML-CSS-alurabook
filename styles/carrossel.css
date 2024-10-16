@@ -91,7 +91,7 @@
 @media screen and (min-width: 768px) {
     .carrossel__saiba-mais {
         margin: 3rem 10rem;
-        padding: 2rem 2rem 2rem;
+        padding: 2rem 2rem 2rem 2rem;
     }
 
     .carrossel__titulo {
@@ -130,7 +130,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1366px) {
     .carrossel__titulo {
         font-size: 2rem;
         padding: 2rem 1rem 1rem 1rem;
