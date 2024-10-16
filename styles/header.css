@@ -96,7 +96,15 @@
         display: flex;
         align-items: center;
         text-align: center;
-        gap: 2rem;
+    }
+
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+        background: var(--azul-degrade);
+        color: white;
+    }
+    .opcoes__item {
+        padding: 1rem;
+        box-sizing: border-box;
     }
 
     .opcoes__link {
