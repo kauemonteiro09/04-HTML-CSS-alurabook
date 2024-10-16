@@ -31,10 +31,23 @@
         list-style: none;
         color: var(--cinza-dark);
         font-size: 0.875rem;
+        gap: 0.5rem;
+        align-items: center;
     }
 
     .rodape__lista-titulo {
         font-size: 0.875rem;
         color: var(--cinza);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        padding: 3.5rem 10rem;
+    }
+
+    .rodape__lista {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1.25rem;
     }
 }

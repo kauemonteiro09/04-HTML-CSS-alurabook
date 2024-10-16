@@ -129,3 +129,52 @@
         width: 90%;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .carrossel__titulo {
+        font-size: 2rem;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .carrossel__box {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .swiper {
+        margin: 2rem 0 2rem 5rem !important;
+    }
+    .swiper-pagination {
+        margin: auto;
+    }
+    .carrossel__saiba-mais {
+        margin: auto;
+        margin: 5rem 5rem 5rem 0;
+    }
+    .saiba-mais__primeira-box {
+        width: 25vw;
+        gap: 0;
+    }
+    .saiba-mais__segunda-box {
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .saiba-mais__preimeiro-subtitulo {
+        font-size: 2rem;
+    }
+
+    .saiba-mais__texto {
+        font-size: 1rem;
+    }
+
+    .saiba-mais__estrelas {
+        width: 10vw;
+    }
+
+    .saiba-mais__imagem,
+    .saiba-mais__link {
+        width: 10rem;
+    }
+}
