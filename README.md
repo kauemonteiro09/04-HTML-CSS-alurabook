@@ -2,7 +2,7 @@
 
 Este repositório contém o projeto de um **site responsivo**, desenvolvido como parte do curso **HTML e CSS: responsividade com mobile-first** da Alura. O foco do projeto foi aprender a construir um layout responsivo utilizando **HTML**, **CSS**, e **media queries** para garantir uma boa experiência tanto em dispositivos móveis quanto em desktops.
 
-[![image](https://github.com/user-attachments/assets/97b1beb2-db6f-4525-9b2d-cc8e8ffe6fb2)](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first)
+[![image](https://github.com/user-attachments/assets/97b1beb2-db6f-4525-9b2d-cc8e8ffe6fb2)](https://04-html-css-alurabook.vercel.app/)
 
 ## 📚 Sobre o Projeto
 
